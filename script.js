@@ -1,7 +1,7 @@
 // Responsive menu toggle
 const menuToggle = document.getElementById('menu-toggle');
 const navLinks = document.querySelector('.nav-links');
-
+npm i @vercel/analytics
 menuToggle.addEventListener('click', () => {
   navLinks.classList.toggle('active');
 });
